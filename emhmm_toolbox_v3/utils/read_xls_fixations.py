@@ -2,9 +2,8 @@ import numpy as np
 import pandas as pd
 
 def read_xls_fixations(xlsname, opt=None):
-    print(f'Reading {xlsname}')
     
-    # Read the XLS file
+    print(f'Reading {xlsname}')
     df = pd.read_excel(xlsname)
     
     # Get the headers

@@ -1,11 +1,10 @@
 import numpy as np
-from emhmm_v2.util.read_xls_fixations import read_xls_fixations
-from emhmm_v2.hmm.vbhmm_learn import vbhmm_learn
+from emhmm_toolbox_v3.utils.read_xls_fixations import read_xls_fixations
+#from emhmm_v2.hmm.vbhmm_learn import vbhmm_learn
 
-np.random.seed(101)
-
+    
 # Load data from xls
-data, SubjNames, TrialNames = read_xls_fixations('emhmm_toolbox_v3/demo/demodata.xls')
+data, SubjNames, TrialNames = read_xls_fixations('/Users/marcoincerti/Desktop/emhmm-toolbox_v3/emhmm_toolbox_v3/demo/demodata.xls')
 
 K = [2, 3]
 vbopt = {
