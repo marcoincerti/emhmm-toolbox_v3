@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "emhmm-toolbox-v3"
+version = "0.1.0"
+description = ""
+authors = ["marcoincerti <marco.incerti@studenti.unimi.it>"]
+readme = "README.md"
+packages = [{include = "emhmm_toolbox_v3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
