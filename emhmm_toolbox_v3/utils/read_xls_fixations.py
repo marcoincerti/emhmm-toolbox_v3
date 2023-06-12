@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def read_xls_fixations(xlsname, opt=None):
+def read_xls_fixations(xlsname):
     
     print(f'Reading {xlsname}')
     df = pd.read_excel(xlsname)
