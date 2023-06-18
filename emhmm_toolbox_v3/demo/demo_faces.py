@@ -7,6 +7,7 @@ from emhmm_toolbox_v3.utils.read_xls_fixations import read_xls_fixations
 data, SubjNames, TrialNames = read_xls_fixations('/Users/marcoincerti/Desktop/emhmm-toolbox_v3/emhmm_toolbox_v3/demo/demodata.xls')
 
 K = [2, 3]
+
 vbopt = {
     'alpha': 0.1,
     'mu': np.array([256, 192]),
@@ -20,6 +21,7 @@ faceimg = 'face.jpg'
 
 # Learn Subject's HMMs
 N = len(data)
+
 hmms = []
 for i in range(N):
     print(f'=== running Subject {i+1} ===')
