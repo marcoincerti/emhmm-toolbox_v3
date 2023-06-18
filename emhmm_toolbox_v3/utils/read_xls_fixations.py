@@ -39,6 +39,7 @@ def read_xls_fixations(xlsname):
     sid_names = []
     sid_trials = []
     data = []
+    print (df)
     
     # Read data
     for i in range(len(df)):
